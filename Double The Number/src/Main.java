@@ -17,6 +17,9 @@ public class Main {
         double total = number1 + number2 *number3;
         System.out.println("The Total Number is: " +total );
         System.out.println("And This is The end!!!");
+        System.out.println("And This is The end!!!");
+        System.out.println("And This is The end!!!");
+        System.out.println("And This is The end!!!");
 
 
     }
