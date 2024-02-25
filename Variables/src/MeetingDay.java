@@ -16,7 +16,7 @@ public class MeetingDay {
 
         // calculate meeting day
 
-        meetDay = (dayOfWeek + 10)%WEEKDAYS;
+        meetDay = (dayOfWeek + 10)% WEEKDAYS;
 
         System.out.printf("Meeting Day of the week is: "+ meetDay);
 
