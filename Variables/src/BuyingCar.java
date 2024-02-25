@@ -5,7 +5,7 @@ public class BuyingCar {
 
         //Calculating The car price and Tax value
 
-        final int TAX = 65;
+        final double TAX = 65;
         double carPrice;
         String carName, carModel;
 
@@ -17,7 +17,7 @@ public class BuyingCar {
         carName = input.next();
         System.out.printf("Enter Car Model: ");
         carModel = input.next();
-        
+
         // Calculating Total And Tax
         double total = carPrice + TAX;
 
