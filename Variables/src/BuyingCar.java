@@ -21,6 +21,7 @@ public class BuyingCar {
         // Calculating Total And Tax
         double total = carPrice + TAX;
 
+
         System.out.printf("The Car of "+carName+" With the Model: "+ carModel+" And its Price after tax is: "+total);
 
 
