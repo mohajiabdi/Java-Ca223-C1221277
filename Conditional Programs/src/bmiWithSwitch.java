@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class bmiWithFunctions {
+public class bmiWithSwitch {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String weightHeightList = "Choose Which Weight and Height Type:\n1. Kilograms and Meters\n" +
