@@ -12,6 +12,8 @@ public class fizzBuzz {
                 System.out.println("Buzz");
             }else if(num%3==0){
                 System.out.println("Fizz");
+            }else {
+                System.out.println("Number is not Divisible by 5 or 3");
             }
         }else{
             System.out.println("Please enter a number greater than 0");
