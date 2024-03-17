@@ -1,12 +1,12 @@
-import java.util.Scanner;
-
-public class charMethods {
+public class charManipulation {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        //System.out.println('a' +1);
+        //System.out.println('a' + '1');
+        //System.out.println('a' + 'a');
+       // System.out.println('m' + "ali");
 
-        System.out.print("Enter a character: ");
-        String input = scanner.next();
-        char ch = input.charAt(0);
+        char ch = (char)('0'+ Math.random()*('z'- 'a' + 1));
+        System.out.println("The generated Letter is " + ch);
 
         if (('a'<= ch && ch<='z') || ('A'<=ch && ch<='Z') || ('0'<=ch && ch<='9')) {
             System.out.println(ch + " is a Digit or letter");
@@ -22,10 +22,11 @@ public class charMethods {
             int lowerCase = ((int)ch +32);
             System.out.println();
             System.out.println("'"+ch+"'"+" is Uppercase and Its Lowercase is "+"'"+(char)lowerCase+"'");
-        }else{
+        }else if('0'<=ch && ch<='9'){
+            System.out.println("'"+ch+"'"+" is Digit");
+        } else{
             System.out.println("Its not a valid Letter!!!");
         }
 
-
-         }
+    }
 }
