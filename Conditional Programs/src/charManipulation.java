@@ -10,10 +10,15 @@ public class charManipulation {
 
         if (('a'<= ch && ch<='z') || ('A'<=ch && ch<='Z') || ('0'<=ch && ch<='9')) {
             System.out.println(ch + " is a Digit or letter");
-        }else{
-            System.out.println(ch + " is not a Digit or letter");
         }
-        System.out.println("\n");
+//        else{
+//            System.out.println(ch + " is not a Digit or letter");
+//        }
+//        System.out.println("\n");
+        if(('a'<= ch && ch<='z') || ('A'<=ch && ch<='Z')){
+            System.out.println(ch + " is a letter");
+        }
+//        System.out.println("\n");
         if('a'<= ch && ch<='z'){
             int upperCase = ((int)ch -32);
 
