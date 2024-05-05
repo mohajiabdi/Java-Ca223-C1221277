@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LoopInLoop {
+public class LoopPaswordCheck {
     public static void main(String[] args) {
         int count = 3;
 
