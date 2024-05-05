@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Conditional Programs/Conditional Programs.iml" filepath="$PROJECT_DIR$/Conditional Programs/Conditional Programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Double The Number/Double The Number.iml" filepath="$PROJECT_DIR$/Double The Number/Double The Number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-Ca223-C1221277.iml" filepath="$PROJECT_DIR$/.idea/Java-Ca223-C1221277.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loops/Loops.iml" filepath="$PROJECT_DIR$/Loops/Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Revision/Revision.iml" filepath="$PROJECT_DIR$/Revision/Revision.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Variables/Variables.iml" filepath="$PROJECT_DIR$/Variables/Variables.iml" />
+    </modules>
+  </component>
+</project>
