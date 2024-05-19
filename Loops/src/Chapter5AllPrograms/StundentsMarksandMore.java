@@ -34,7 +34,7 @@ public class StundentsMarksandMore {
             average = (double)total / numberOfSubjects;
             // Display total and average for each student...
             System.out.printf("\nThe Total Marks Of Student %d Is: %d",i,total);
-            System.out.printf("\nThe Average Marks Of Student %d Is: %2f",i,average);
+            System.out.printf("\nThe Average Marks Of Student %d Is: %.2f",i,average);
 
             // Display Grade for each student...
             // By using if else statement find the Grade for each student
@@ -51,7 +51,7 @@ public class StundentsMarksandMore {
             }
         }
 
-        
+
 
     }
 }
