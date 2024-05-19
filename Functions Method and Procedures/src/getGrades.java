@@ -1,12 +1,15 @@
 import java.util.*;
 import java.lang.System;
 
+import static java.lang.Long.sum;
+
 
 public class getGrades {
     public static void main(String[] args) {
         double grade = 80;
         // System.out.print(getGrade(grade));
         System.out.println(getGrade(95));
+        System.out.println(sum(2,10));
 
     }
 
