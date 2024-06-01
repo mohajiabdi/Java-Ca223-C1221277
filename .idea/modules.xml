@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Conditional Programs/Conditional Programs.iml" filepath="$PROJECT_DIR$/Conditional Programs/Conditional Programs.iml" />
       <module fileurl="file://$PROJECT_DIR$/Functions Method and Procedures/Functions Method and Procedures.iml" filepath="$PROJECT_DIR$/Functions Method and Procedures/Functions Method and Procedures.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-Ca223-C1221277.iml" filepath="$PROJECT_DIR$/.idea/Java-Ca223-C1221277.iml" />
