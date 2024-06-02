@@ -8,6 +8,7 @@ public class functionBeginner {
         System.out.print("Enter Number 2: ");
         int num2 = input.nextInt();
 
+
         //display();
 
         // Calling Sum Function
