@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class GradesUsingGba {
     public static void main(String[] args) {
-        int score = 85;
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter Marks: ");
+        int score = input.nextInt();
         double gpa = convertToGBA(score);
         System.out.println("Score: " + score);
         System.out.println("GPA: " + gpa);
