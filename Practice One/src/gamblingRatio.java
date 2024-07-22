@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class gamblingRatio {
     public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
-      
+
         System.out.print("Enter How Many participants are there: ");
         int participant =input.nextInt();
         double total =0.0;
